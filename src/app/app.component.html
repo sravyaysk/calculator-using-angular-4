@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<html>
+<head></head>
+<body>
+  <h1>
+    My angular 4 calculator
+  </h1>
+  <app-textfield #apptextfield></app-textfield>
+  <app-calc #appcalc (myNewEvent)="apptextfield.displayResult($event)"></app-calc>
+  <app-buttons (myEvent)="appcalc.calculate($event)"></app-buttons>
+</body>
+</html>

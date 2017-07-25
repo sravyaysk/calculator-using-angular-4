@@ -1,0 +1,24 @@
+table, td, tr { font-family: sans-serif; font-size: 20pt; color: white; background-color: #101010; height: 25px }
+input[type="button"]{
+	  font-size: 25px;
+    width: 55px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+	  border:1px solid #b7b7b7; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;
+    padding: 0px
+    }
+input[type=text]{
+			font-size: 32px;
+		    width: 270px;
+			  height: 50px;
+		    background: white;
+		    border: 1px double #DDD;
+			  background-color: #cccccc;
+		    border-radius: 8px;
+		    box-shadow: 0 0 5px #333;
+		    color: #666;
+		    outline: none;
+			  text-align: right;
+		    padding: 3px;
+}
